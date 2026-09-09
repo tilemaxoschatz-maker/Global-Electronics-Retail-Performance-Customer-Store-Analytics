@@ -12,7 +12,7 @@ This project transforms **62,884 sales lines** from a multi-table global electro
 
 ### Downloads
 
-- **[Download the Excel export](./Global%20Electronics%20Retail%20Performance%2C%20Customer%20%26%20Store%20Analytics.xlsx)**
+- **[Download the Excel export](https://docs.google.com/spreadsheets/d/16IoxGfunyiEUEiMkG1U0f4kbpdwyH9XTm5sAwY8qPJQ/export?format=xlsx)**
 - **[Download the executive PowerPoint presentation](./Global_Electronics_Retail_Analytics_Presentation.pptx)**
 
 ---

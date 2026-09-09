@@ -13,17 +13,18 @@ This project transforms **62,884 sales lines** from a multi-table global electro
 ### Downloads
 
 - **[Download the Excel export](./Global%20Electronics%20Retail%20Performance%2C%20Customer%20%26%20Store%20Analytics.xlsx)**
+- **[Download the executive PowerPoint presentation](./Global_Electronics_Retail_Analytics_Presentation.pptx)**
 
 ---
 
 ## Dashboard Preview
 
 <p align="center">
-  <img src="dashboard_preview/dashboard-overview.png" alt="Global Electronics Retail Performance Dashboard" width="100%">
+  <img src="dashboard_review/Screenshot%202026-09-09%20140527.png" alt="Global Electronics Retail Performance Dashboard Overview" width="100%">
 </p>
 
 <p align="center">
-  <img src="dashboard_preview/dashboard-detail.png" alt="Global Electronics Retail Dashboard Detail" width="100%">
+  <img src="dashboard_review/Screenshot%202026-09-09%20140558.png" alt="Global Electronics Retail Performance Dashboard Detail" width="100%">
 </p>
 
 ---
@@ -85,6 +86,8 @@ CHART LIBRARY
 DASHBOARD
    ↓
 EXECUTIVE INSIGHTS
+   ↓
+EXECUTIVE PRESENTATION
 ```
 
 The workbook follows a structured end-to-end analytics process:
@@ -99,6 +102,7 @@ The workbook follows a structured end-to-end analytics process:
 8. **Chart library** — provides a broader visual analysis layer beyond the executive dashboard.
 9. **Dashboard development** — presents the strongest KPIs and trends in a management-ready visual layout.
 10. **Executive insights** — converts the analysis into conclusions and business recommendations.
+11. **Executive presentation** — communicates the most important findings and management priorities in a concise presentation format.
 
 ---
 
@@ -276,28 +280,6 @@ Study leading states such as Nevada, Kansas, and Nebraska and evaluate which pra
 
 ---
 
-## Selected Analysis Charts
-
-### Top 10 Physical Store States by Revenue
-
-<p align="center">
-  <img src="analysis_charts/top-10-physical-store-states-by-revenue.png" alt="Top 10 Physical Store States by Revenue" width="90%">
-</p>
-
-### Profit by Product Category
-
-<p align="center">
-  <img src="analysis_charts/profit-by-product-category.png" alt="Profit by Product Category" width="90%">
-</p>
-
-### Profit by Brand
-
-<p align="center">
-  <img src="analysis_charts/profit-by-brand.png" alt="Profit by Brand" width="90%">
-</p>
-
----
-
 ## Chart Library
 
 The `CHARTS` worksheet contains ten supporting visuals:
@@ -354,21 +336,48 @@ The six dashboard visuals are:
 
 ---
 
+## Executive Presentation
+
+The executive PowerPoint presentation converts the spreadsheet analysis into a concise management story. It is designed for a portfolio reviewer or business stakeholder who wants to understand the project without navigating every worksheet.
+
+The presentation focuses on:
+
+- The overall **$55.76M revenue / $32.66M profit** performance picture
+- The strong growth through **2019** and the subsequent decline
+- **Computers** as the leading product category
+- **U.S. customer concentration** and international growth opportunities
+- The dominance of **physical stores** versus the online channel
+- The significant improvement in **online delivery efficiency**
+- The final set of **management recommendations and priorities**
+
+### Presentation Preview
+
+<p align="center">
+  <img src="presentation_review/Screenshot%202026-09-09%20141205.png" alt="Global Electronics Retail Analytics Executive Presentation Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="presentation_review/Screenshot%202026-09-09%20141228.png" alt="Global Electronics Retail Analytics Executive Recommendations Preview" width="100%">
+</p>
+
+**[Download the full executive PowerPoint presentation](./Global_Electronics_Retail_Analytics_Presentation.pptx)**
+
+---
+
 ## Repository Structure
 
 ```text
-global-electronics-retail-analytics/
+Global-Electronics-Retail-Performance-Customer-Store-Analytics/
 ├── README.md
-├── Global Electronics Retail Performance, Customer & Store Analytics.xlsx
+├── Global_Electronics_Retail_Analytics_Presentation.pptx
 │
-├── dashboard_preview/
-│   ├── dashboard-overview.png
-│   └── dashboard-detail.png
+├── dashboard_review/
+│   ├── Screenshot 2026-09-09 140527.png
+│   └── Screenshot 2026-09-09 140558.png
 │
-└── analysis_charts/
-    ├── top-10-physical-store-states-by-revenue.png
-    ├── profit-by-product-category.png
-    └── profit-by-brand.png
+└── presentation_review/
+    ├── Screenshot 2026-09-09 141205.png
+    └── Screenshot 2026-09-09 141228.png
 ```
 
 ---
@@ -386,7 +395,8 @@ global-electronics-retail-analytics/
 9. Review `CHARTS` for the complete supporting visual analysis.
 10. Review `DASHBOARD` for the executive management view.
 11. Review `EXECUTIVE_INSIGHTS` for final conclusions and strategic recommendations.
-12. Use the `.xlsx` export only when a local Excel copy is required; visual formatting may differ from the native Google Sheets version.
+12. Download the PowerPoint presentation for the final executive narrative and recommendations.
+13. Use the `.xlsx` export only when a local Excel copy is required; visual formatting may differ from the native Google Sheets version.
 
 ---
 
@@ -481,6 +491,7 @@ global-electronics-retail-analytics/
 - Executive reporting
 - Strategic recommendations
 - Management-focused storytelling
+- Executive presentation design
 - Portfolio case-study development
 
 ---
@@ -489,6 +500,7 @@ global-electronics-retail-analytics/
 
 - **Google Sheets**
 - **Microsoft Excel**
+- **Microsoft PowerPoint**
 - Spreadsheet formulas
 - Pivot Tables
 - Feature Engineering
